@@ -1,3 +1,21 @@
+.page {
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-auto-columns: 318px auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+    min-height: 100vh;
+    grid-column: 2;
+}
+
 .wrapper {
     margin: 15% auto;
     max-width: 720px;
@@ -10,4 +28,14 @@
 
 .animals {
     text-align: left;
+}
+
+@media (max-width: 920px) {
+    .page {
+        display: block;
+    }
+
+    .main {
+        grid-column: unset;
+    }
 }

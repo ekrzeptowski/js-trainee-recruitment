@@ -11,6 +11,7 @@
 
 .animal {
     margin-bottom: 56px;
+    scroll-margin-top: 48px;
 }
 
 .animal > h2 {
@@ -26,4 +27,10 @@
     width: 817px;
     height: auto;
     max-width: 100%;
+}
+
+@media (max-width: 920px) {
+    .animal {
+        scroll-margin-top: 96px;
+    }
 }

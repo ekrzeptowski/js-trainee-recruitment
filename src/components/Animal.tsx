@@ -1,7 +1,7 @@
 import { animalType } from "@/types/animalType";
 import { useInView } from "react-intersection-observer";
 
-import styles from "./Animal.module.css";
+import styles from "@/styles/Animal.module.css";
 
 export function Animal({
   animal,
@@ -10,7 +10,7 @@ export function Animal({
   animal: animalType;
   setActiveAnimal: (animalName: animalType["name"]) => void;
 }) {
-  const { ref, inView } = useInView({
+  const { ref } = useInView({
     threshold: 0.5,
     onChange: (inView) => {
       if (inView) {
