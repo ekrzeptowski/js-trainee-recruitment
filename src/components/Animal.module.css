@@ -1,0 +1,29 @@
+.animal > h1 {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #71717A;
+}
+
+.animal > * {
+    margin: 8px 0;
+}
+
+.animal {
+    margin-bottom: 56px;
+}
+
+.animal > h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.animal strong {
+    color: #F2994A;
+}
+
+.animal img {
+    width: 817px;
+    height: auto;
+    max-width: 100%;
+}
