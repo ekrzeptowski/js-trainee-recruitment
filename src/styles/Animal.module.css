@@ -21,6 +21,7 @@
 
 .animal strong {
     color: #F2994A;
+    font-weight: inherit;
 }
 
 .animal img {
